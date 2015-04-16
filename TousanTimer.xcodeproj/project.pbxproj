@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E2267391ADFD068008E0EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2267381ADFD068008E0EF7 /* AppDelegate.swift */; };
+		3E22673B1ADFD068008E0EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22673A1ADFD068008E0EF7 /* ViewController.swift */; };
+		3E22673E1ADFD068008E0EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E22673C1ADFD068008E0EF7 /* Main.storyboard */; };
+		3E2267401ADFD068008E0EF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E22673F1ADFD068008E0EF7 /* Images.xcassets */; };
+		3E2267431ADFD068008E0EF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E2267411ADFD068008E0EF7 /* LaunchScreen.xib */; };
+		3E22674F1ADFD068008E0EF7 /* TousanTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22674E1ADFD068008E0EF7 /* TousanTimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E2267491ADFD068008E0EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E22672B1ADFD068008E0EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2267321ADFD068008E0EF7;
+			remoteInfo = TousanTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E2267331ADFD068008E0EF7 /* TousanTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TousanTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2267371ADFD068008E0EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2267381ADFD068008E0EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E22673A1ADFD068008E0EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E22673D1ADFD068008E0EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E22673F1ADFD068008E0EF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E2267421ADFD068008E0EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3E2267481ADFD068008E0EF7 /* TousanTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TousanTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E22674D1ADFD068008E0EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E22674E1ADFD068008E0EF7 /* TousanTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TousanTimerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2267301ADFD068008E0EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2267451ADFD068008E0EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E22672A1ADFD068008E0EF7 = {
+			isa = PBXGroup;
+			children = (
+				3E2267351ADFD068008E0EF7 /* TousanTimer */,
+				3E22674B1ADFD068008E0EF7 /* TousanTimerTests */,
+				3E2267341ADFD068008E0EF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E2267341ADFD068008E0EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E2267331ADFD068008E0EF7 /* TousanTimer.app */,
+				3E2267481ADFD068008E0EF7 /* TousanTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E2267351ADFD068008E0EF7 /* TousanTimer */ = {
+			isa = PBXGroup;
+			children = (
+				3E2267381ADFD068008E0EF7 /* AppDelegate.swift */,
+				3E22673A1ADFD068008E0EF7 /* ViewController.swift */,
+				3E22673C1ADFD068008E0EF7 /* Main.storyboard */,
+				3E22673F1ADFD068008E0EF7 /* Images.xcassets */,
+				3E2267411ADFD068008E0EF7 /* LaunchScreen.xib */,
+				3E2267361ADFD068008E0EF7 /* Supporting Files */,
+			);
+			path = TousanTimer;
+			sourceTree = "<group>";
+		};
+		3E2267361ADFD068008E0EF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2267371ADFD068008E0EF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E22674B1ADFD068008E0EF7 /* TousanTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E22674E1ADFD068008E0EF7 /* TousanTimerTests.swift */,
+				3E22674C1ADFD068008E0EF7 /* Supporting Files */,
+			);
+			path = TousanTimerTests;
+			sourceTree = "<group>";
+		};
+		3E22674C1ADFD068008E0EF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E22674D1ADFD068008E0EF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E2267321ADFD068008E0EF7 /* TousanTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2267521ADFD068008E0EF7 /* Build configuration list for PBXNativeTarget "TousanTimer" */;
+			buildPhases = (
+				3E22672F1ADFD068008E0EF7 /* Sources */,
+				3E2267301ADFD068008E0EF7 /* Frameworks */,
+				3E2267311ADFD068008E0EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TousanTimer;
+			productName = TousanTimer;
+			productReference = 3E2267331ADFD068008E0EF7 /* TousanTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E2267471ADFD068008E0EF7 /* TousanTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2267551ADFD068008E0EF7 /* Build configuration list for PBXNativeTarget "TousanTimerTests" */;
+			buildPhases = (
+				3E2267441ADFD068008E0EF7 /* Sources */,
+				3E2267451ADFD068008E0EF7 /* Frameworks */,
+				3E2267461ADFD068008E0EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E22674A1ADFD068008E0EF7 /* PBXTargetDependency */,
+			);
+			name = TousanTimerTests;
+			productName = TousanTimerTests;
+			productReference = 3E2267481ADFD068008E0EF7 /* TousanTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E22672B1ADFD068008E0EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "KINARI NISHIYAMA";
+				TargetAttributes = {
+					3E2267321ADFD068008E0EF7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3E2267471ADFD068008E0EF7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3E2267321ADFD068008E0EF7;
+					};
+				};
+			};
+			buildConfigurationList = 3E22672E1ADFD068008E0EF7 /* Build configuration list for PBXProject "TousanTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E22672A1ADFD068008E0EF7;
+			productRefGroup = 3E2267341ADFD068008E0EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E2267321ADFD068008E0EF7 /* TousanTimer */,
+				3E2267471ADFD068008E0EF7 /* TousanTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E2267311ADFD068008E0EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E22673E1ADFD068008E0EF7 /* Main.storyboard in Resources */,
+				3E2267431ADFD068008E0EF7 /* LaunchScreen.xib in Resources */,
+				3E2267401ADFD068008E0EF7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2267461ADFD068008E0EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E22672F1ADFD068008E0EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E22673B1ADFD068008E0EF7 /* ViewController.swift in Sources */,
+				3E2267391ADFD068008E0EF7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2267441ADFD068008E0EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E22674F1ADFD068008E0EF7 /* TousanTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E22674A1ADFD068008E0EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2267321ADFD068008E0EF7 /* TousanTimer */;
+			targetProxy = 3E2267491ADFD068008E0EF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E22673C1ADFD068008E0EF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E22673D1ADFD068008E0EF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E2267411ADFD068008E0EF7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2267421ADFD068008E0EF7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E2267501ADFD068008E0EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E2267511ADFD068008E0EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E2267531ADFD068008E0EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TousanTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E2267541ADFD068008E0EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TousanTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E2267561ADFD068008E0EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TousanTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TousanTimer.app/TousanTimer";
+			};
+			name = Debug;
+		};
+		3E2267571ADFD068008E0EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TousanTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TousanTimer.app/TousanTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E22672E1ADFD068008E0EF7 /* Build configuration list for PBXProject "TousanTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2267501ADFD068008E0EF7 /* Debug */,
+				3E2267511ADFD068008E0EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2267521ADFD068008E0EF7 /* Build configuration list for PBXNativeTarget "TousanTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2267531ADFD068008E0EF7 /* Debug */,
+				3E2267541ADFD068008E0EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E2267551ADFD068008E0EF7 /* Build configuration list for PBXNativeTarget "TousanTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2267561ADFD068008E0EF7 /* Debug */,
+				3E2267571ADFD068008E0EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E22672B1ADFD068008E0EF7 /* Project object */;
+}
